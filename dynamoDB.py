@@ -106,7 +106,7 @@ if __name__ == '__main__':
     ACCESS_KEY = "EXAMPLE_ASIA6FNSSPX4KMXLQQGQ"
     SECRET_KEY = "EXAMPLE_H7GWbfg56U25W3jXJjaRz4P"
     SESSION_TOKEN = "EXAMPLE_FwoGZXIvYXdzEPn//////////wEaDHk4SbnENfCajc/RxiLFAc2ok4QQpn5uyRYJhVe/UDdxZwNdCrJ90X3Vkb+bucAUSXBi00/TQ9bcVAnnonqDlE7NlxDlPm9Atrha7JRAQpxr3AH0q/WxxUJg+r/WZPstmn1lacb/A5cmA9hfLu9aI/GdCm51l5P3zYijDXSh4fmEuNQGidfa6NLuoe5AOsVm7fLhUcEIQPdVteeE1v3gi3G7ulL2PApzM5Pl08QKv29LnQlPxM6p6Buk/icq2HVH29eNeWj8jwzCtw3WbgNJnSKaEELZ9A="
-    # Create EC2 client
+    # Create DynamoDB client
     client = boto3.client(
         'dynamodb',
         aws_access_key_id=ACCESS_KEY,
